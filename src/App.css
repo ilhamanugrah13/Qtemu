@@ -1,0 +1,61 @@
+body{
+  margin: 8px;
+  line-height: 1.2;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.bgGray{
+  background: #828282;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+
+.imageProfile{
+  max-width: 200px;
+  overflow: hidden;
+}
+
+.detailProfile{
+  margin: 0 20px;
+  height: 200px;
+  width: 350px;
+}
+
+.detailProfile .detailTitle{
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.detailProfile dl{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 10px 0;
+}
+
+.detailProfile dt,
+.detailProfile dd{
+  margin: 10px 0;
+  width: 50%;
+}
+
+.detailMember{
+  margin: 0 20px;
+}
+
+.detailMember span{
+  padding-left: 50px;
+}
+
+
+.textGray{
+  color: #8e8e8e;
+}
